@@ -1,4 +1,51 @@
-h1 {
-  color: blue;
-  font-family: "Mali", cursive;
+:root {
+  --primary-font: "Mali", cursive;
+  --default-font: "Alegreya", serif;
+  --primary-color: #0779e4;
+}
+
+body {
+  font-family: var(--default-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4d80e4;
+  font-family: var(--primary-font);
+}
+.hero {
+  background: linear-gradient(
+    76.5deg,
+    rgb(129, 252, 255) 0.4%,
+    rgb(255, 175, 207) 49.8%,
+    rgb(255, 208, 153) 98.6%
+  );
+  text-align: center;
+  padding: 160px 0;
+}
+.hero h1 {
+  font-family: var(--primary-font);
+  font-size: 70px;
+  color: var(--primary-color);
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #3d4147;
+  font-family: var(--default-font);
+}
+
+.btn-search {
+  background: #feb2ca;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 25px;
+  font-family: var(--default-font);
 }
