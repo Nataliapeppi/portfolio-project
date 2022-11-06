@@ -2,6 +2,7 @@
   --primary-font: "Mali", cursive;
   --default-font: "Alegreya", serif;
   --primary-color: #0779e4;
+  --secondary-color: #3d4147;
 }
 
 body {
@@ -36,16 +37,16 @@ h6 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #3d4147;
+  color: var(--secondary-color)
   font-family: var(--default-font);
 }
 
 .btn-search {
   background: #feb2ca;
   border-radius: 6px;
-  color: white;
+   color: var(--secondary-color)
   font-size: 16px;
   line-height: 20px;
-  padding: 14px 25px;
+  padding: 14px 20px;
   font-family: var(--default-font);
 }
