@@ -3,6 +3,7 @@
   --default-font: "Alegreya", serif;
   --primary-color: #0779e4;
   --secondary-color: #3d4147;
+  --branding-color: #feb2ca;
 }
 
 body {
@@ -37,16 +38,55 @@ h6 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: var(--secondary-color)
+  color: var(--secondary-color);
   font-family: var(--default-font);
 }
 
+h2 {
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+}
 .btn-search {
-  background: #feb2ca;
+  background: var(--branding-color);
   border-radius: 6px;
-   color: var(--secondary-color)
+  color: var(--secondary-color);
   font-size: 16px;
   line-height: 20px;
   padding: 14px 20px;
   font-family: var(--default-font);
+}
+
+.btn-search-branding {
+  border-radius: 6px;
+  color: var(--secondary-color);
+  border: 2px solid var(--branding-color);
+  font-size: 16px;
+  line-height: 20px;
+  padding: 14px 20px;
+  font-family: var(--default-font);
+}
+.project-description {
+  padding: 25px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 0;
+  }
 }
