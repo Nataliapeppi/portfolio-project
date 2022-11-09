@@ -41,6 +41,25 @@ h6 {
   color: var(--secondary-color);
   font-family: var(--default-font);
 }
+.about-content {
+  padding: 160px 0;
+}
+.about-content h1 {
+  font-size: 54px;
+  font-family: var(--default-font);
+  color: var(--secondary-color);
+}
+.about-content h2 {
+  font-size: 36px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.about-section-content {
+  margin: 30px;
+}
 
 h2 {
   font-size: 64px;
@@ -88,5 +107,9 @@ p {
   }
   .hero {
     padding: 80px 0;
+  }
+  .about-content {
+    text-align: center;
+    padding: 0;
   }
 }
