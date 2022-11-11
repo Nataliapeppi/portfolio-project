@@ -96,6 +96,13 @@ p {
 .project-description {
   padding: 25px 60px;
 }
+.active {
+  color: var(--branding-color) !important;
+}
+.nav-item {
+  padding: 0 10px;
+  line-height: 14px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
