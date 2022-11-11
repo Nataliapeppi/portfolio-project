@@ -41,23 +41,28 @@ h6 {
   color: var(--secondary-color);
   font-family: var(--default-font);
 }
-.about-content {
+.content {
   padding: 160px 0;
 }
-.about-content h1 {
+.content h1 {
   font-size: 54px;
   font-family: var(--default-font);
   color: var(--secondary-color);
 }
-.about-content h2 {
+.content h2 {
   font-size: 36px;
 }
 
-.about-content p {
+.content p {
   font-size: 18px;
   line-height: 1.5;
 }
-.about-section-content {
+.content h3 {
+  font-size: 22px;
+  font-family: var(--default-font);
+  line-height: 1.5;
+}
+.section-content {
   margin: 30px;
 }
 
@@ -108,7 +113,7 @@ p {
   .hero {
     padding: 80px 0;
   }
-  .about-content {
+  .content {
     text-align: center;
     padding: 0;
   }
