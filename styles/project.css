@@ -19,6 +19,9 @@ h6 {
   color: #4d80e4;
   font-family: var(--primary-font);
 }
+h4 {
+  font-size: 26px;
+}
 .hero {
   background: linear-gradient(
     76.5deg,
@@ -27,7 +30,7 @@ h6 {
     rgb(255, 208, 153) 98.6%
   );
   text-align: center;
-  padding: 160px 0;
+  padding: 80px 0;
 }
 .hero h1 {
   font-family: var(--primary-font);
@@ -42,7 +45,7 @@ h6 {
   font-family: var(--default-font);
 }
 .content {
-  padding: 160px 0;
+  padding: 60px 0;
 }
 .content h1 {
   font-size: 54px;
@@ -65,7 +68,6 @@ h6 {
 .section-content {
   margin: 30px;
 }
-
 h2 {
   font-size: 64px;
 }
@@ -94,7 +96,7 @@ p {
   font-family: var(--default-font);
 }
 .project-description {
-  padding: 25px 60px;
+  padding: 25px 80px;
 }
 .active {
   color: var(--branding-color) !important;
@@ -102,6 +104,39 @@ p {
 .nav-item {
   padding: 0 10px;
   line-height: 14px;
+}
+footer .contact-call-to-action {
+  background: #f9f7f5;
+  padding: 20px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-call-to-action p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--secondary-color);
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .media-links a {
+  margin: 0 15px;
+  color: var(--branding-color);
+  background: #f9f7f5;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .media-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 @media (max-width: 900px) {
   h1 {
@@ -117,8 +152,8 @@ p {
     padding: 0;
     text-align: center;
   }
-  .hero {
-    padding: 80px 0;
+  .btn {
+    font-size: 16px;
   }
   .content {
     text-align: center;
